@@ -1,0 +1,23 @@
+<productlisting title="Python Products">
+    <product id="1"> 
+        <name>Python Hoodie</name>
+        <description>This hoodie will keep your code warm and fuzzy
+        </description>
+        <cost>$49.95</cost>
+        <shipping>$4.00</shipping>
+    </product>
+	<product id="2"> 
+        <name>Python Book</name>
+        <description>Python for Dummies
+        </description>
+        <cost>$10.95</cost>
+        <shipping>$4.00</shipping>
+    </product>
+	 <product id="3"> 
+        <name>Advance Python </name>
+        <description>Advance Python Topics
+        </description>
+        <cost>$100.00</cost>
+        <shipping>$4.00</shipping>
+    </product>
+	 </productlisting>

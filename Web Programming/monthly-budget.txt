@@ -1,0 +1,9 @@
+Create a web app for monthly budgeting.
+
+	records all purchases made (item purchased, price, category)
+	monthly reports
+	category wise reports
+	export to csv
+	export to excel
+	
+	

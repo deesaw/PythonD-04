@@ -1,0 +1,16 @@
+<membership>
+	<users>
+		<user name="Ujwal" />
+		<user name="Vishal" />
+		<user name="Lahari" />
+	</users>
+	<groups>
+		<group name="users">
+			<user name="Lalitha" />
+			<user name="Shilpa" />
+		</group>
+		<group name="administrators">
+			<user name="Sasi" />
+		</group>
+	</groups>
+</membership>

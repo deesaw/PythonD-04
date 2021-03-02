@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+</head>
+<body> <center>
+    <h1><font color="maroon">TodoList</h1>
+	<div>
+			<form action='/task' method="POST">
+				<tr> <td><font color="darkblue"> <input type=text name=content placeholder="Add a new ToDo item" style="font-size: 12pt; height: 40px; width:280px" > <td>
+				<input type="submit" value="Add Task" style="font-size:10pt;color:white;background-color:green;border:2px solid #336600;padding:5px"><br>
+
+			</form>
+	</div>
+	<ul>
+</ul>
+<ul>
+<table border=1 width = 400>
+{% for task in tasks %}
+	<tr><td>{%if task.complete%}
+		<strike><font color="grey"> {% endif %}{{ task.text }}</strike> 
+		</td>
+        <td style="font-size:12pt"><a href="/deleteTask/{{ task.tid }}">X</a></td>
+        <td style="font-size:12pt"><a href="/completedTask/{{ task.tid }}">Complete</a></td>
+    </tr>
+{% endfor %}
+</table>
+</ul>
+</center>
+</body>
+<html>
